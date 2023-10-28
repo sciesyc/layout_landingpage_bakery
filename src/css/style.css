@@ -77,6 +77,10 @@ a {
   font-size: 12px;
 }
 
+.section-description {
+  margin-bottom: 20px;
+}
+
 .section-description__icon-box {
   display: flex;
   justify-content: center;
@@ -100,5 +104,16 @@ a {
   font-size: 18px;
   text-align: center;
   width: 1000px;
+  margin: 0 auto;
+}
+
+.section-map__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+iframe {
+  display: block;
   margin: 0 auto;
 }
