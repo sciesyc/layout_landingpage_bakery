@@ -41,6 +41,7 @@ a {
   position: relative;
   height: 640px;
   background: url(../img/background-image.jpg) center / cover no-repeat;
+  margin-bottom: 20px;
 }
 
 .section-about__block {
@@ -74,4 +75,30 @@ a {
 
 .section-about__text {
   font-size: 12px;
+}
+
+.section-description__icon-box {
+  display: flex;
+  justify-content: center;
+  column-gap: 76px;
+  margin-bottom: 20px;
+}
+
+.section-description__text-box {
+}
+
+.section-description__title {
+  font-size: 96px;
+  text-align: center;
+}
+
+.red {
+  color: #f15b40;
+}
+
+.section-description__text {
+  font-size: 18px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
 }
